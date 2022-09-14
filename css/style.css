@@ -1941,11 +1941,16 @@ span.border.two:after {
 .address-text{
 	font-size: 20px;
 }
+.address-textname{
+	margin-top: 50px;
+	font-size: 50px;
+	margin-bottom: 50px;
+	color: white;
+}
+
+
 
 body{
 	font-size: 20px;
 }
 
-.address-text index{
-	font-size: 40px;
-}
