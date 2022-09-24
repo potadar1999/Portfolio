@@ -1013,7 +1013,9 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
     #portfolio .portfolio-item {
     margin: 0 0 30px;
     }
+	
 }
+
 
 .portfolio-modal .modal-content h3 {
     margin: 0 0 44px 0px;
@@ -1245,6 +1247,8 @@ span.border.two:after {
 	
 }
 @media(max-width:1280px){
+
+	
 	
 	.thumb .team_pos {
 		bottom: -83px;
@@ -1958,5 +1962,37 @@ body{
 	padding: auto;
 }
 
+#githubCommits{
+	
+	background-color: teal;
+	margin-bottom: 30px;
+	
+	
+}
+.calendar{
 
 
+padding: 30px;
+	width: 80%;
+	height: auto;
+	margin:auto;
+
+	font-size: 35px;
+}
+
+.table-column {
+    display: table-cell;
+    width: 1%;
+    padding-right: 10px;
+    padding-left: 10px;
+    vertical-align: top;
+}
+.contrib-column {
+    padding: 15px 0;
+    text-align: center;
+    border-left: 3px solid #ddd;
+    border-top: 3px solid #ddd;
+    font-size: 30px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	
+}
