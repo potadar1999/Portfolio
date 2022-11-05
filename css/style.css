@@ -50,7 +50,8 @@ body h1,h2,h3,h4,h5,h6{
 	float:left;
 }
 .navigation-right{
-	float:right;
+	/* float:right; */
+	position: sticky;
 }
 .navigation-right ul li{
 	display:inline-block;
@@ -62,6 +63,7 @@ body h1,h2,h3,h4,h5,h6{
     padding: 10px 0;
 	text-transform:uppercase;
     font-family: 'Open Sans', sans-serif;
+	
 }
 .navigation-right ul li.active a{
 	    color: #00a78e;
@@ -1156,6 +1158,10 @@ span.border.two:after {
     top: -4px;
     left:65px;
 }
+.services-list{
+	display: grid;
+}
+
 /*-- footer --*/
 .footer {
     background: url(../images/contact.jpeg) no-repeat center top;
@@ -1460,6 +1466,11 @@ span.border.two:after {
 		top: -4px;
 		left: 74px;
 	}
+	.services-list{
+		margin-top: 20px;
+		display: contents;
+	}
+	
 }
 @media(max-width:768px){
 	.about-right {
@@ -1473,6 +1484,8 @@ span.border.two:after {
 		min-height: 367px;
 		margin-left: 7em;
 	}
+
+	
 }
 @media(max-width:640px){
 	
@@ -1589,6 +1602,8 @@ span.border.two:after {
 	.wthree_about_right_grid:nth-child(2) {
 		margin-bottom: 1em;
 	}
+	
+	
 }
 @media(max-width:600px){
 	.modal-dialog.about {
@@ -1605,6 +1620,10 @@ span.border.two:after {
 		min-height: 418px;
 		margin-left: 7em;
 	}
+	.services-list{
+		margin-top: 20px;
+	}
+	
 }
 @media(max-width:480px){
 	.wthree_about_right_grids {
@@ -1722,6 +1741,7 @@ span.border.two:after {
 		margin: 0em 0 1em 0;
 		padding: 0;
 	}
+
 }
 @media(max-width:414px){
 	span.menu img {
@@ -1796,6 +1816,8 @@ span.border.two:after {
 		width: 354px;
 		margin: 2em auto 0;
 	}
+
+	
 }
 @media(max-width:384px){
 	ul.year li {
@@ -1855,6 +1877,7 @@ span.border.two:after {
 		margin: 0 0 14px 0px;
 		font-size: 1.5em;
 	}
+
 }
 @media(max-width:375px){
 	.banner-info {
@@ -1882,6 +1905,7 @@ span.border.two:after {
 		float: right;
 		padding: 0.5em 1em 1.5em 1em;
 	}
+
 }
 @media(max-width:320px){
 	.resp-tab-item {
@@ -1930,6 +1954,7 @@ span.border.two:after {
 		margin-top: -62px;
 		padding: 6px 0;
 	}
+
 }
 
 
@@ -1960,23 +1985,21 @@ body{
 #photo{
 	margin: auto;
 	padding: auto;
+	
 }
 
 #githubCommits{
 	
 	background-color: teal;
 	margin-bottom: 30px;
-	
-	
+	margin-top: 50px;
 }
+
 .calendar{
-
-
 padding: 30px;
 	width: 80%;
 	height: auto;
 	margin:auto;
-
 	font-size: 35px;
 }
 
@@ -1987,6 +2010,7 @@ padding: 30px;
     padding-left: 10px;
     vertical-align: top;
 }
+
 .contrib-column {
     padding: 15px 0;
     text-align: center;
@@ -1995,4 +2019,38 @@ padding: 30px;
     font-size: 30px;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	
+}
+
+	  
+
+#services1{
+	background-color: teal;
+	display: flex;
+	padding: 10px;
+}
+
+.services-list{
+	display: flex;
+	gap: 10%;
+	color: white;
+	margin-top: 20px;
+}
+
+#tag{
+	
+	width: 150px;
+	height: auto;
+}
+
+
+@media(min-width:767px) {
+	.services-list{
+
+	}
+    
+	
+}
+
+/* body{
+	position: relative;
 }
