@@ -1984,8 +1984,7 @@ body{
 }
 #photo{
 	margin: auto;
-	padding: auto;
-	
+	padding: auto;	
 }
 
 #githubCommits{
@@ -2040,17 +2039,52 @@ padding: 30px;
 	
 	width: 150px;
 	height: auto;
+	
+	
 }
+#tag1{
+	
+	color: #818183;
+	
+	
+}
+.read-hvr-shutter-in-horizontal{
+	border:2px solid teal;
+	border-radius: 18px;
+	padding: 7px;
+	font-size: 15px;
 
-
-@media(min-width:767px) {
-	.services-list{
-
-	}
-    
+	
 	
 }
 
-/* body{
-	position: relative;
+
+@media(max-width:300px) {
+	/* .services-list{
+
+	} */
+
+
+	.read-hvr-shutter-in-horizontal{
+		display: grid;
+		padding: 5px;
+	}
+	.services-list{
+		display: grid;
+	}
+	#photo{
+		width: 150px;
+	}
+	
+}
+
+@media only screen and (max-width: 890px) and (min-width: 300px) {
+	
+	.services-list{
+		display: grid;
+	}
+	#photo{
+		width: 320px;
+	}
+	
 }
