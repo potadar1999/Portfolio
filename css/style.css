@@ -2137,3 +2137,18 @@ padding: 30px;
 display: flex;
 justify-content: space-between;
 }
+
+.about-left-grid{
+	width: 60%;
+	color: #000000;
+}
+#pad{
+	left: 10%;
+	display: flex;
+	justify-content: end;
+	margin-left: 2%;
+}
+#i{
+	width: 80%;
+}
+
