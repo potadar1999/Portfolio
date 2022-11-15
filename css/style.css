@@ -2150,10 +2150,16 @@ justify-content: space-between;
 #pad{
 	display: flex;
 	justify-content: end;
+	margin-left: 5%;
 
 }
-#i{
-	width: 50%;
+
+
+.col-md-51{
+
+	width: 20%;
+
 }
-
-
+#tag3{
+	width: 80px;
+}
