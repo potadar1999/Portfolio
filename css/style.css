@@ -2099,6 +2099,10 @@ padding: 30px;
 	#photo{
 		width: 150px;
 	}
+	.address-textname{
+
+		font-size: 20px;
+	}
 	
 }
 
@@ -2119,6 +2123,7 @@ padding: 30px;
 		grid-template-columns:  repeat(1, 1fr) ;
 		
 	}
+	
 	
 }
 
