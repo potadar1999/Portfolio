@@ -2183,7 +2183,7 @@ justify-content: space-between;
 }
 
 #sand{
-	width: 120px;	
+	width: 90px;	
 	justify-content: space-around;
 	color: #00a78e;
 }
@@ -2203,7 +2203,7 @@ justify-content: space-between;
 	}
 	
 	#sand{
-		width: 100px;	
+		width: 50px;	
 		justify-content: space-around;
 		color: #00a78e;
 	}
@@ -2224,7 +2224,7 @@ justify-content: space-between;
 	}
 	
 	#sand{
-		width: 60px;	
+		width: 40px;	
 		justify-content: space-around;
 		color: #00a78e;
 	}
