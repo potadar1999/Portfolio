@@ -2103,6 +2103,15 @@ padding: 30px;
 
 		font-size: 20px;
 	}
+
+	#h{
+		color: white;
+		font-size: 100px;
+		margin-bottom: 10px;
+	}
+
+	
+		
 	
 }
 
@@ -2121,10 +2130,11 @@ padding: 30px;
 		border: 1px solid black;
 		display: grid;
 		grid-template-columns:  repeat(1, 1fr) ;
-		
 	}
+
+
 	
-	
+
 }
 
 .top-nav{
@@ -2144,13 +2154,13 @@ justify-content: space-between;
 }
 
 .about-left-grid{
-	width: 40%;
+	width: 50%;
 	color: #000000;
 }
 #pad{
 	display: flex;
 	justify-content: end;
-	margin-left: 5%;
+	margin-left: 0%;
 
 }
 
@@ -2162,4 +2172,66 @@ justify-content: space-between;
 }
 #tag3{
 	width: 80px;
+}
+
+
+#skilled{
+	display: grid;
+    grid-template-columns:  repeat(5, 1fr) ;
+	padding: auto;
+	
+}
+
+#sand{
+	width: 120px;	
+	justify-content: space-around;
+	color: #00a78e;
+}
+#h{
+	color: white;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 690px) and (min-width: 350px) {
+	
+	#skilled{
+		display: grid;
+		grid-template-columns:  repeat(3, 1fr) ;
+		padding: auto;
+		
+	}
+	
+	#sand{
+		width: 100px;	
+		justify-content: space-around;
+		color: #00a78e;
+	}
+	#h{
+		color: white;
+		font-size: 15px;
+	}
+
+}
+
+
+@media(max-width:350px) {
+	#skilled{
+		display: grid;
+		grid-template-columns:  repeat(2, 1fr) ;
+		padding: auto;
+		
+	}
+	
+	#sand{
+		width: 60px;	
+		justify-content: space-around;
+		color: #00a78e;
+	}
+	#h{
+		color: white;
+		font-size: 10px;
+	}
+	
+		
 }
