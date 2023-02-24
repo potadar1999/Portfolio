@@ -1359,11 +1359,15 @@ span.border.two:after {
 	}
 	.about-left-grid {
 		width:80%;
-		float: none;
+	
 		margin-right: 0;
 		min-height: 306px;
-		margin-left: 7em;
+
 	}
+	/* .heros{
+		width: 50%;
+		border: 9px solid red;
+	} */
 	#home {
 	   min-height: 563px;  
 	}
@@ -2158,13 +2162,56 @@ justify-content: space-between;
 	width: 50%;
 	color: #000000;
 }
-#pad{
+#spans{
+	width: 80%;
+	height: 500px;
+	margin: auto;
+	/* border: 5px solid rgb(54, 4, 80); */
 	display: flex;
-	justify-content: end;
-	margin-left: 0%;
-
 }
 
+.a-btn-h{
+
+	border: 3px solid teal;
+	border-radius: 18px;
+	padding: 5px;
+} 
+
+
+.a-btn-h:hover{
+	background: teal;
+	color: #000;
+} 
+
+
+
+#for_img{
+	width: 60%;
+	height: 200px;
+	/* border: 2px solid teal; */
+	margin-right: 10px;
+}
+
+#fans{
+	width: 90%;
+}
+
+#for_hire{
+	width: 40%;
+	/* border: 2px solid teal; */
+	line-height: 2;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	/* margin: auto; */
+}
+
+#for_hire>h2{
+	/* border: 2px solid teal; */
+	line-height: 2;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	/* margin: auto; */
+}
 
 .col-md-51{
 
@@ -2177,15 +2224,19 @@ justify-content: space-between;
 
 
 #skilled{
-	display: grid;
-    grid-template-columns:  repeat(5, 1fr) ;
 	padding: auto;
-	
+}
+
+#inner{
+	margin-left: 12%; 
+	display: grid;
+    grid-template-columns:  repeat(4, 1fr) ;
+	/* margin: auto; */
+	/* border: 2px solid red; */
 }
 
 #sand{
 	width: 90px;	
-	justify-content: space-around;
 	color: #00a78e;
 }
 #h{
