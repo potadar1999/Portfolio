@@ -2249,7 +2249,7 @@ justify-content: space-between;
 	
 	#skilled{
 		display: grid;
-		grid-template-columns:  repeat(3, 1fr) ;
+		grid-template-columns:  repeat(3, 350px) ;
 		padding: auto;
 		
 	}
@@ -2264,13 +2264,39 @@ justify-content: space-between;
 		font-size: 15px;
 	}
 
+	#for_img{
+		width: 400px;
+		height: auto;
+
+	}
+
+	#for_hire{
+		font-size: 16px;
+		width: 80%;
+	}
+	#for_hire > h2{
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	#a-btn-h {
+		width: 100px;
+		margin-bottom: 20px;
+	}
+
+	#spans{
+		display: grid;
+	}
+
+
+
 }
 
 
 @media(max-width:350px) {
 	#skilled{
 		display: grid;
-		grid-template-columns:  repeat(2, 1fr) ;
+		grid-template-columns:  repeat(2, 50px) ;
 		padding: auto;
 		
 	}
@@ -2285,5 +2311,29 @@ justify-content: space-between;
 		font-size: 10px;
 	}
 	
+
+	#for_img{
+		width: 100%;
+		height: auto;
+
+	}
+
+	#for_hire{
+		font-size: 12px;
+		width: 100%;
+	}
+	#for_hire > h2{
+		font-size: 12px;
+		font-weight: bold;
+	}
+
+	#a-btn-h {
+		width: 100%;
+	}
+
+	#spans{
+		display: grid;
+	}
+
 		
 }
